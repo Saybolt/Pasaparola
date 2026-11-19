@@ -29,6 +29,7 @@ window.WORD_C2 = [
   ["convoluted","karmaşık ve anlaşılması güç","C2"],
   ["corroborate","kanıtla doğrulamak; desteklemek","C2"],
   ["culminate","en üst noktaya ulaşmak; sonuçlanmak","C2"],
+  ["courteous","kibar; nazik ve saygılı","C2"],
   ["dearth","kıtlık; yetersiz miktar","C2"],
   ["debacle","fiyasko; büyük başarısızlık","C2"],
   ["decipher","şifreyi çözmek; güç anlaşılanı çözümlemek","C2"],
@@ -144,4 +145,6 @@ window.WORD_C2 = [
   ["zenith","en yüksek nokta; zirve","C2"]
 ];
 window.WORD_BANK.push(...window.WORD_C2.filter(([word]) => !window.WORD_BANK.some(item => item[0] === word)));
+
+
 

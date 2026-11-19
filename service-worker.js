@@ -1,9 +1,11 @@
-const CACHE_NAME = 'kelime-cemberi-pwa-v14';
+const CACHE_NAME = 'kelime-cemberi-pwa-v17';
 const APP_FILES = [
   './index.html',
   './pasaparola.html',
   './word-bank.js',
   './word-c2.js',
+  './word-phrases.js',
+  './word-categories.js',
   './word-overrides.json',
   './word-overrides.js',
   './word-focus.js',
@@ -50,6 +52,7 @@ self.addEventListener('fetch', event => {
     return Response.error();
   }));
 });
+
 
 
 

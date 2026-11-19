@@ -39,3 +39,6 @@ Bu listedeki seçilmiş B1 başlıkları oyuna eklendi; Türkçe ipuçları oyun
 
 
 
+
+Uygulama için özgün hazırlanan kalıp fiil örnekleri, telaffuz ipuçları ve uzmanlık kelime paketleri: word-phrases.js ve word-categories.js.
+
