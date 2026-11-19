@@ -25,10 +25,10 @@ https://www.oxfordlearnersdictionaries.com/about/wordlists/oxford3000-5000
 Oxford 3000 PDF: https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_3000_by_CEFR_level.pdf
 Oxford 5000 PDF: https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_5000_by_CEFR_level.pdf
 
-Oyun, açık sözlükteki karşılığı bulunabilen Oxford 5000 başlıklarıyla
-sınırlandırılmıştır; geniş sözlükte yer alan fakat Oxford 5000'de bulunmayan
-başlıklar kullanılmaz. Oyuna eklenen İngilizce–Türkçe havuzunda 3.883 kelime
-vardır. Oxford listeleri ve sözlük veri kümesi ayrı kaynaklardır.
+Oxford 5000 başlıkları temel alınmıştır. Cambridge Preliminary B1 listesinden
+seçilmiş başlıklar ve özgün Türkçe ipuçları eklenmiştir. C2+ havuzu ileri düzey
+pratiği için ayrıca hazırlanmış seçilmiş kelimelerden oluşur; resmî bir Cambridge
+C2 kelime listesi değildir. Oxford listeleri ve açık sözlük ayrı kaynaklardır.
 Sık kullanılan 169 kelimenin karşılığı elle sadeleştirilip gözden geçirilmiştir
 ve word-overrides.json dosyasında tutulur. Ayrıca word-overrides.js yaygın olmayan
 ve eski Türkçe karşılıkları temizler. Oyunun soru seçiminde uygun olduğunda fiil,
@@ -36,4 +36,6 @@ sıfat ve zamirlere öncelik verilir; bu düzenleme kelime seviyesini korur.
 
 Cambridge English Preliminary Vocabulary List: https://www.cambridgeenglish.org/images/84669-pet-vocabulary-list.pdf
 Bu listedeki seçilmiş B1 başlıkları oyuna eklendi; Türkçe ipuçları oyun için ayrıca ve özgün biçimde yazıldı. Bu ek, Cambridge listesinin tamamı değildir.
+
+
 

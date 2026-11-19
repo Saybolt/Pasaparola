@@ -18,3 +18,6 @@ GITHUB PAGES
 Bu sürümde hesap oluşturma/giriş ve cihazlar arası eşitleme yoktur. Oyun geçmişi, pas haznesi ve ilerleme aynı cihaz ve tarayıcının yerel belleğinde saklanır. Telefon ve bilgisayar aynı hesabın kayıtlarını paylaşmaz. Bunun için sonradan ayrı bir veritabanı hizmeti gerekir.
 
 Yayınlamada klasörün içeriğini kök dizine koy. Eski server.js, package.json, data klasörü ve zip dosyalarını bu depoya ekleme.
+
+Kelime seviyeleri ayrı ayrı seçilebilir: A1, A2, B1, B2, C1 ve C2+. C2+ havuzu ileri düzey için seçilmiş ek kelimelerden oluşur; resmî bir Cambridge C2 kelime listesi değildir.
+
