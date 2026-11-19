@@ -33,3 +33,7 @@ Sık kullanılan 169 kelimenin karşılığı elle sadeleştirilip gözden geçi
 ve word-overrides.json dosyasında tutulur. Ayrıca word-overrides.js yaygın olmayan
 ve eski Türkçe karşılıkları temizler. Oyunun soru seçiminde uygun olduğunda fiil,
 sıfat ve zamirlere öncelik verilir; bu düzenleme kelime seviyesini korur.
+
+Cambridge English Preliminary Vocabulary List: https://www.cambridgeenglish.org/images/84669-pet-vocabulary-list.pdf
+Bu listedeki seçilmiş B1 başlıkları oyuna eklendi; Türkçe ipuçları oyun için ayrıca ve özgün biçimde yazıldı. Bu ek, Cambridge listesinin tamamı değildir.
+

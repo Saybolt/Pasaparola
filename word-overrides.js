@@ -4,6 +4,7 @@ window.WORD_OVERRIDES={
   "book": "kitap · rezerve etmek",
   "buy": "satın almak",
   "close": "yakın · kapatmak",
+  "conservative": "Gelenekleri korumayı ve toplumsal değişime temkinli yaklaşmayı savunan",
   "date": "tarih · randevu · hurma",
   "fair": "adil · fuar · güzel",
   "faction": "grup · özellikle siyasi grup",
@@ -183,3 +184,4 @@ const everydayGlosses=new Map([
 ]);
 for(const item of window.WORD_BANK||[]){const clean=item[1].split(' · ').map(part=>everydayGlosses.get(part.trim().toLocaleLowerCase('tr-TR'))??part.trim()).filter(Boolean);if(clean.length)item[1]=[...new Set(clean)].join(' · ')}
 for(const item of window.WORD_BANK||[])if(Object.hasOwn(window.WORD_OVERRIDES,item[0]))item[1]=window.WORD_OVERRIDES[item[0]];
+
