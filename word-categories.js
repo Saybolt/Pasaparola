@@ -70,3 +70,16 @@ for (const [word, clue, level, groups] of window.WORD_SPECIALTY) {
   else if (word === 'audit' || word === 'calibration' || word === 'hazard' || word === 'risk assessment') item[1] = clue;
   for (const group of groups) window.WORD_CATEGORIES[group].add(word);
 }
+Object.assign(window.WORD_EXAMPLES, {
+  although: 'Although it was raining, we went out.',
+  improve: 'I want to improve my English.',
+  achieve: 'She worked hard to achieve her goal.',
+  enough: 'We have enough time.',
+  probably: 'It will probably rain later.',
+  however: 'The task was difficult; however, we finished it.',
+  through: 'We walked through the park.',
+  during: 'I fell asleep during the film.',
+  throughout: 'It rained throughout the night.',
+  identity: 'You need to show your identity card.',
+  destiny: 'She believed she could choose her own destiny.'
+});
