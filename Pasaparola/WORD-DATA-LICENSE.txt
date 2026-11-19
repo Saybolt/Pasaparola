@@ -1,0 +1,35 @@
+Kelime verisi ve kaynaklar
+=========================
+
+İngilizce–Türkçe kelime verisi: koreader-dicts tarafından hazırlanan en-tr
+sözlüğünden türetilmiştir. Sözlük dosyaları CC BY-SA 4.0 lisansıyla dağıtılır.
+
+Kaynak proje: https://github.com/DanielGregorini/koreader-dicts
+Sözlük dosyası: https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-tr.zip
+Kaynaklar: Princeton University WordNet 3.0 ve English Wiktionary (kaikki.org / wiktextract).
+Lisans: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Bu oyundaki seçilmiş İngilizce başlıklar ve Türkçe karşılık alternatifleri,
+sözlükteki İngilizce alfabetik başlıklardan ve Türkçe karşılıklarından
+oluşturulmuştur. Sık kullanılan bazı kelimeler için karşılıklar, öğrenme
+bağlamında daha doğal olacak şekilde ayrıca düzenlenmiştir.
+Türetilmiş kelime verisi CC BY-SA 4.0 koşullarına tabidir. Kaynak sözlükteki
+çeviriler topluluk katkısıdır; her anlam bağlam içinde doğrulanmış değildir.
+
+Oxford 3000 ve Oxford 5000 CEFR etiketleri: Oxford Learner's Dictionaries'in
+resmî listelerindeki eşleşen başlıkların A1, A2, B1, B2 ve C1 sınıflamasını
+göstermek için kullanılmıştır. Oxford 5000, Oxford 3000'e B2–C1 düzeyinde
+2.000 kelime daha ekler. Kaynak ve açıklama:
+https://www.oxfordlearnersdictionaries.com/about/wordlists/oxford3000-5000
+Oxford 3000 PDF: https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_3000_by_CEFR_level.pdf
+Oxford 5000 PDF: https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_5000_by_CEFR_level.pdf
+
+Oyun, açık sözlükteki karşılığı bulunabilen Oxford 5000 başlıklarıyla
+sınırlandırılmıştır; geniş sözlükte yer alan fakat Oxford 5000'de bulunmayan
+başlıklar kullanılmaz. Oyuna eklenen İngilizce–Türkçe havuzunda 3.883 kelime
+vardır. Oxford listeleri ve sözlük veri kümesi ayrı kaynaklardır.
+Sık kullanılan 169 kelimenin karşılığı elle sadeleştirilip gözden geçirilmiştir
+ve word-overrides.json dosyasında tutulur. Ayrıca word-overrides.js yaygın olmayan
+ve eski Türkçe karşılıkları temizler. Oyunun soru seçiminde uygun olduğunda fiil,
+sıfat ve zamirlere öncelik verilir; bu düzenleme kelime seviyesini korur.

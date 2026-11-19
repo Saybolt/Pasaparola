@@ -1,0 +1,20 @@
+KELİME ÇEMBERİ — VERCEL VE GITHUB PAGES
+
+Bu klasör Node.js sunucusu, package.json veya build komutu gerektirmeyen statik site dosyalarını içerir.
+
+VERCEL
+1. Bu klasörün içeriğini bir GitHub deposunun köküne yükle.
+2. Vercel'de Add New Project ile bu depoyu seç.
+3. Framework Preset: Other seç. Build Command ve Output Directory alanlarını boş bırak; Install Command gerekmez.
+4. Deploy'a bas. Vercel siten için paylaşılabilir HTTPS bağlantısı üretir.
+
+GITHUB PAGES
+1. Bu klasörün içeriğini yeni bir GitHub deposunun köküne yükle.
+2. Depoda Settings > Pages bölümüne gir.
+3. Build and deployment altında Deploy from a branch seç; branch olarak main, klasör olarak /(root) seç ve Save'e bas.
+4. GitHub Pages adresi oluşunca telefonda da açabilirsin.
+
+ÖNEMLİ
+Bu sürümde hesap oluşturma/giriş ve cihazlar arası eşitleme yoktur. Oyun geçmişi, pas haznesi ve ilerleme aynı cihaz ve tarayıcının yerel belleğinde saklanır. Telefon ve bilgisayar aynı hesabın kayıtlarını paylaşmaz. Bunun için sonradan ayrı bir veritabanı hizmeti gerekir.
+
+Yayınlamada klasörün içeriğini kök dizine koy. Eski server.js, package.json, data klasörü ve zip dosyalarını bu depoya ekleme.
