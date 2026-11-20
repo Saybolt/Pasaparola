@@ -1,0 +1,29 @@
+GOOGLE PLAY — KELİME ÇEMBERİ HAZIRLIK DURUMU
+
+Uygulama adresi
+https://pasaparola.vercel.app/
+
+ŞU AN HAZIR
+- Telefon ekranına kurulabilen PWA, uygulama ikonu ve manifest
+- 2 dakikalık oyun sayacı canlı sitede görünüyor
+- Vercel için e-posta hesapları ve bulut ilerleme eşitlemesi kaynak kodu hazırlandı
+- Hesap verisini kullanıcı başına ayıran Supabase tablo şeması hazırlandı
+
+İLK GEREKEN: HESAP SİSTEMİNİ AÇMAK
+1. Bu paketteki dosyaları GitHub deposunun köküne yükleyip Vercel'de yeniden yayınla.
+2. Supabase projesi oluştur; supabase-schema.sql dosyasını SQL Editor'da çalıştır.
+3. Vercel Environment Variables içine SUPABASE_URL ve SUPABASE_ANON_KEY değerlerini ekleyip yeniden deploy et.
+4. HESAP-KURULUM.txt içindeki adımları izle. Hesap açma ve cihazlar arası kayıt eşitleme ancak bu ayarlardan sonra açılır.
+
+GOOGLE PLAY İÇİN KALANLAR
+- Android uygulama paketi (AAB) ve kalıcı uygulama kimliği
+- Uygulama imza anahtarı ve buna göre .well-known/assetlinks.json alan adı doğrulaması
+- Hesap silme seçeneği hem uygulama içinde hem de web üzerinden
+- Gizlilik politikası, mağaza görselleri, veri güvenliği beyanı ve içerik bilgileri
+- Play Console hesabı ve kapalı test aşaması
+
+TWA notu
+Android uygulaması, aynı web sitesini tam ekran açan Trusted Web Activity olarak üretilebilir. Bu yöntem site sahipliğini Digital Asset Links ile doğrular. assetlinks.json dosyasındaki uygulama kimliği ve sertifika parmak izi ancak imza anahtarı belirlendikten sonra kesinleştirilebilir. Bu yüzden henüz örnek/uydurma bir doğrulama dosyası eklenmedi.
+
+YAYIN ÖNCESİ
+Bu paket gerçek Supabase proje anahtarlarını içermez. SUPABASE_SERVICE_ROLE_KEY'i hiçbir zaman bu site dosyalarına veya GitHub deposuna koyma. Yalnızca Supabase anon/public key'i Vercel yapılandırması için kullanılır.

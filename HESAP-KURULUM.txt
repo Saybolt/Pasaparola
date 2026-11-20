@@ -1,0 +1,24 @@
+KELİME ÇEMBERİ — HESAP VE YAYIN KURULUMU
+
+ÖNEMLİ
+Bu güncelleme Vercel üzerinde çalışan Supabase tabanlı hesap açma, giriş ve ilerleme eşitleme kodunu içerir. Supabase projesi ve Vercel ortam değişkenleri bağlanmadan hesaplar etkinleşmez.
+
+1) Supabase'te yeni proje oluştur.
+2) SQL Editor'da supabase-schema.sql dosyasının tamamını çalıştır.
+3) Supabase Project Settings > API bölümünden Project URL ve anon/public key değerlerini al.
+4) Vercel projesinin Settings > Environment Variables bölümüne şu değerleri ekle:
+   SUPABASE_URL = Supabase Project URL
+   SUPABASE_ANON_KEY = Supabase anon/public key
+   Production, Preview ve Development ortamlarında tanımla.
+5) GitHub deposunun köküne bu klasörün TÜM içeriğini yükle. api/account/[action].js dosyası Vercel'de hesap API'si olarak yayınlanır.
+6) Vercel'de yeniden deploy et. Sonra siteyi açıp ücretsiz hesap oluşturmayı dene.
+
+GÜVENLİK
+Supabase anon/public key uygulama için tasarlanmış herkese açık anahtardır; service_role/secret key'i asla tarayıcıya veya depoya ekleme. Kayıt verisi RLS ile kullanıcı hesabına göre sınırlandırılır. Supabase e-posta doğrulama ayarlarını açık tut.
+
+ŞU ANDA DAHİL OLANLAR
+- E-posta ve şifre ile hesap oluşturma/giriş
+- Kullanıcının oyun ilerlemesini buluta kaydetme ve cihazlar arasında yükleme
+- Oturumu yenileme ve çıkış
+
+LİDERLİK TABLOSU, UYGULAMA İÇİ SATIN ALMA VE GOOGLE PLAY PAKETİ BU SÜRÜMDE HENÜZ YOKTUR. Bunlar için ayrıca kullanıcı adı/puan tablosu, Play ödeme bağlantısı, uygulama kimliği ve Android TWA imzalama dosyaları hazırlanacaktır.
