@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kelime-cemberi-pwa-v24';
+const CACHE_NAME = 'kelime-cemberi-pwa-v26';
 const APP_FILES = [
   './index.html',
   './pasaparola.html',
@@ -11,6 +11,7 @@ const APP_FILES = [
   './word-overrides.json',
   './word-overrides.js',
   './word-focus.js',
+  './word-eald-extra.js',
   './account.js',
   './WORD-DATA-LICENSE.txt',
   './manifest.webmanifest',

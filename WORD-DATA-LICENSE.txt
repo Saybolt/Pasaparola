@@ -45,3 +45,6 @@ Uygulama için özgün hazırlanan kalıp fiil örnekleri, telaffuz ipuçları v
 
 Yeni özgün içerik paketleri: word-phrases-extra.js (ek kalıp fiiller) ve word-connectors.js (bağlaçlar ve geçiş ifadeleri). Örnek cümleler uygulama için hazırlanmıştır.
 
+
+
+NSW Department of Education, Bilingual Dictionary for ESL Beginners (2001), was consulted to identify beginner headwords. Only selected missing headwords were added; Turkish glosses and examples in this project are independently written. The source PDF states that its restricted copyright waiver allows photocopying only for school or institute use and prohibits selling or redistribution of copies. Do not redistribute its pages or translations.
