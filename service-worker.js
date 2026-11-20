@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kelime-cemberi-pwa-v21';
+const CACHE_NAME = 'kelime-cemberi-pwa-v22';
 const APP_FILES = [
   './index.html',
   './pasaparola.html',
