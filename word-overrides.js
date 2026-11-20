@@ -1,4 +1,7 @@
 window.WORD_OVERRIDES={
+  "august":"ağustos",
+  "july":"temmuz",
+  "june":"haziran",
   "apple": "elma",
   "bank": "banka · kıyı",
   "book": "kitap · rezerve etmek",
