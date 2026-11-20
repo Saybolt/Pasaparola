@@ -1,0 +1,55 @@
+window.WORD_PHRASES_EXTRA = [
+  ["blow up","patlamak; havaya uçurmak","B1","The old building blew up in the film."],
+  ["break into","zorla girmek; aniden gülmeye başlamak","B2","Someone broke into the office last night."],
+  ["bring back","geri getirmek; hatırlatmak","B1","This song brings back good memories."],
+  ["bring in","içeri getirmek; kazanç sağlamak","B1","The new product brings in more customers."],
+  ["call on","birinden cevap istemek; ziyaret etmek","B2","The teacher called on Mia to answer."],
+  ["carry out","gerçekleştirmek; uygulamak","B1","The team carried out the safety checks."],
+  ["catch on","anlaşılmak; popüler hâle gelmek","B2","The idea quickly caught on."],
+  ["clear up","açıklığa kavuşturmak; hava açmak","B1","I hope the weather clears up soon."],
+  ["come along","eşlik etmek; gelişmek","B1","You can come along with us."],
+  ["come out","yayımlanmak; ortaya çıkmak","B1","Her new book comes out next month."],
+  ["come over","birinin evine uğramak","A2","Why don't you come over tonight?"],
+  ["count on","güvenmek; bel bağlamak","B1","You can count on me."],
+  ["cut off","bağlantıyı kesmek; ayırmak","B1","The storm cut off the village."],
+  ["do over","baştan yapmak; yeniden yapmak","B1","I made a mistake, so I did the exercise over."],
+  ["dress up","şık giyinmek; kostüm giymek","A2","The children dressed up as animals."],
+  ["eat out","dışarıda yemek yemek","A2","We eat out once a week."],
+  ["figure out","anlamak; çözmek","B1","I can't figure out how this works."],
+  ["get across","anlatabilmek; mesajını karşıya iletmek","B2","He explained it clearly and got his point across."],
+  ["get away with","ceza almadan kurtulmak","B2","He thought he could get away with lying."],
+  ["get down to","ciddi biçimde işe koyulmak","B2","Let's get down to work."],
+  ["get through","tamamlamak; zor bir dönemi atlatmak","B1","We got through the long meeting."],
+  ["go over","gözden geçirmek; tekrar incelemek","B1","Let's go over the answers together."],
+  ["hand in","teslim etmek","A2","Please hand in your assignment by Friday."],
+  ["hand out","dağıtmak","A2","The teacher handed out the worksheets."],
+  ["hold up","geciktirmek; ayakta tutmak","B2","Traffic held us up for an hour."],
+  ["keep up","aynı tempoyu sürdürmek; geri kalmamak","B1","It's hard to keep up with the class."],
+  ["leave behind","geride bırakmak; unutup bırakmak","B1","I left my notebook behind."],
+  ["log in","oturum açmak","A2","Log in with your email address."],
+  ["log out","oturumu kapatmak","A2","Remember to log out on a shared computer."],
+  ["look down on","küçümsemek; hor görmek","B2","You should not look down on other people."],
+  ["look out","dikkat etmek; göz kulak olmak","A2","Look out! A car is coming."],
+  ["pass away","vefat etmek","B1","Her grandfather passed away peacefully."],
+  ["pay back","borcu geri ödemek; karşılığını vermek","B1","I'll pay you back tomorrow."],
+  ["point out","belirtmek; dikkat çekmek","B1","She pointed out a mistake in the report."],
+  ["pull over","aracı kenara çekmek","B1","The police officer asked us to pull over."],
+  ["put up with","katlanmak; tahammül etmek","B2","I can't put up with this noise."],
+  ["run out of","tükenmek; elinde kalmamak","B1","We've run out of milk."],
+  ["see off","uğurlamak","B1","We went to the airport to see them off."],
+  ["take after","bir aile üyesine benzemek","B1","She takes after her mother."],
+  ["take back","geri almak; sözünü geri almak","B1","I take back what I said."],
+  ["take in","anlamak; içeri almak","B2","It was a lot of information to take in."],
+  ["turn up","ortaya çıkmak; sesi açmak","B1","He turned up late to the meeting."],
+  ["watch out","dikkat etmek; sakınmak","A2","Watch out for ice on the road."],
+  ["wear out","yıpratmak; çok yorulmak","B1","These shoes wear out quickly."],
+  ["wipe out","tamamen yok etmek; silip süpürmek","B2","The disease wiped out the local population."],
+  ["work on","üzerinde çalışmak","A2","I'm working on a new project."]
+];
+for (const phrase of window.WORD_PHRASES_EXTRA) {
+  const index=window.WORD_BANK.findIndex(item=>item[0]===phrase[0]);
+  if(index>=0)window.WORD_BANK[index]=phrase;else window.WORD_BANK.push(phrase);
+  window.WORD_PHRASES.push(phrase);
+  window.WORD_PHRASE_SET.add(phrase[0]);
+  window.WORD_EXAMPLES[phrase[0]]=phrase[3];
+}

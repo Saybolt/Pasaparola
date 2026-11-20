@@ -24,3 +24,6 @@ Kelime seviyeleri ayrı ayrı seçilebilir: A1, A2, B1, B2, C1 ve C2+. C2+ havuz
 
 Yeni içerik dosyaları: word-phrases.js ve word-categories.js. Yayınlarken bu klasördeki bütün dosyaları GitHub'a yükleyip yeniden dağıt.
 
+
+Bağlaçlar ve ek kalıp fiiller için word-connectors.js ve word-phrases-extra.js dosyaları da siteye dahil edilmiştir; tüm dosyaları birlikte yayınla.
+
